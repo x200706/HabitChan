@@ -37,7 +37,7 @@ C,0
 ```shell
 python main.py
 ```
-如果是fork到Replit按`Run`就可以運行了
+如果是fork（在Replit叫做import）到Replit按`Run`就可以運行了（如果他要你設定run指令不用理它，❌掉那個提示窗，因為本程式是用Replit預設的Python執行語句）
 
 4. 每天照著指示輸入有達成習慣的代號即可，目前功能有：
     - 計算總積分（公式為`所有習慣積分加總`）
