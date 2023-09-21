@@ -1,6 +1,14 @@
 import pandas as pd
 import os
-# 輸入於環境變數設置之密碼
+
+def check():
+  pwd = os.getenv("MIMA")
+  user_input_pwd = input('使用本程式前，先核對身分：')
+  if user_input_pwd != pwd:
+    print('你不是本人...請回吧> <|||')
+    exit()
+
+check()
 
 # 載入習慣
 file_path = 'habit.csv'
